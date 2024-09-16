@@ -1,0 +1,21 @@
+<html lang="en">
+	<head>
+		<title>Sandbox</title>
+		<link rel="stylesheet" href="styles/styles.css" />
+	</head>
+	<body>
+		<canvas id=canvas width="500" height="500"></canvas>
+		<div class="controls">
+			<button class="button-38" onclick="clearCanvas()">Clear</button>
+			<button class="button-38" onclick="randomizeCanvas()">Random</button>
+			<button class="button-38" onclick="saveAsImage()">Save</button>
+			<button id="freeze" class="button-38" onclick="freeze()">Freeze</button>
+			<button id="rotate" class="button-38" onclick="rotate()">Rotate</button>
+			<div class="controls">
+				<label for="brush-size">Brush Size</label>
+				<input type="range" id="brush-size" name="brush-size" min="0" max="10" value="3" />
+			</div>
+		</div>
+		<script src="scripts/script.js"></script>
+	</body>
+</html>
